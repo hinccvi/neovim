@@ -6,5 +6,6 @@ end
 lualine.setup({
 	options = {
 		theme = "carbonfox",
+		globalstatus = true,
 	},
 })
