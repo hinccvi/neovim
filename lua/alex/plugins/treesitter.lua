@@ -35,6 +35,7 @@ treesitter.setup({
 		"gomod",
 		"proto",
 		"sql",
+		"php",
 	},
 	-- auto install above language parsers
 	auto_install = true,

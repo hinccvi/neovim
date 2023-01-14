@@ -35,7 +35,7 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 keymap.set("n", "<leader>gs", vim.cmd.Git)
 
-keymap.set("n", "<leader>t", ":term<CR>")
+keymap.set("n", "<leader>t", "<cmd>Lspsaga term_toggle<CR>")
 
 keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>", { silent = true, noremap = true })
 keymap.set("n", "<leader>xw", "<cmd>TroubleToggle workspace_diagnostics<cr>", { silent = true, noremap = true })
