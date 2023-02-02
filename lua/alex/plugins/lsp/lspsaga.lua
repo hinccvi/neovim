@@ -5,6 +5,9 @@ if not saga_status then
 end
 
 saga.setup({
+	definition = {
+		edit = "<CR>",
+	},
 	ui = {
 		-- currently only round theme
 		theme = "round",

@@ -25,7 +25,8 @@ null_ls.setup({
 		code_actions.gomodifytags,
 		diagnostics.golangci_lint,
 		diagnostics.protolint,
-		diagnostics.psalm,
+		diagnostics.checkstyle,
+		diagnostics.stylelint,
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
 			condition = function(utils)

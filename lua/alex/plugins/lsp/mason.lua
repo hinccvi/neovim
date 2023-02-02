@@ -28,7 +28,7 @@ mason_lspconfig.setup({
 		"tailwindcss",
 		"sumneko_lua",
 		"emmet_ls",
-		"psalm",
+		"gopls",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -44,8 +44,9 @@ mason_null_ls.setup({
 		"goimports",
 		"goimports_reviser",
 		"revive",
-		"psalm",
+		"clang_format",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
+	automatic_setup = false,
 })
